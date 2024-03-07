@@ -1,0 +1,46 @@
+/* Resetting default margin and padding */
+body, h3, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting up basic styling for the container */
+.container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling for the heading */
+h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333; /* Dark grey */
+}
+
+/* Styling for the joke container */
+.joke {
+    background-color: #fff; /* White */
+    border: 2px solid #3498db; /* Light blue */
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Styling for the button */
+#jokeBtn {
+    background-color: #3498db; /* Blue */
+    color: #fff; /* White */
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for the button */
+.btn:hover {
+    background-color: #2980b9; /* Darker blue */
+}

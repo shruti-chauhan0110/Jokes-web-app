@@ -31,11 +31,7 @@ h3 {
 /* Styling for the button */
 #jokeBtn {
     background-color: #3498db; /* Blue */
-    color: #fff; /* White */
-    border: none;
-    padding: 12px 24px;
-    font-size: 18px;
-    border-radius: 25px;
+    color: #fff; /* White */ border: none;  padding: 12px 24px;font-size: 18px;border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease; /* Smooth transition */
 }

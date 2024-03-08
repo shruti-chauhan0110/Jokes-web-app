@@ -12,8 +12,7 @@ async function generateJokes(){
         const data =await res.json();
        
         jokes.innerHTML=data.joke;
-
-    }catch(err){
+ }catch(err){
         console.log(`the error is ${err}`);
     }
     
